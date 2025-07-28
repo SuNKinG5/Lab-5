@@ -95,8 +95,7 @@ class ECTest {
 	})
 	void test(int baipad, int motor, int krajang, Double expected) {
 		
-		Double actual = in.calculateIncome(baipad, motor, krajang);
-		assertEquals(expected, actual);
+		assertEquals(expected, in.calculateIncome(baipad, motor, krajang));
 	}
 
 }
